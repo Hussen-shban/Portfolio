@@ -5,7 +5,7 @@
 
 
 import { useEffect } from "react";
-import { c, html, css, js, tailwind, reactt } from "../assets";
+import { c, html, css, js, tailwind, reactt, next } from "../assets";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -56,20 +56,20 @@ export default function Skills() {
 
   useEffect(() => {
     Aos.init({
-      duration: 1000, // مدة الأنيميشن
-      once: false, // الأنيميشن يتكرر مع كل وصول للعنصر
-      offset: 100, // المسافة التي يظهر عندها العنصر
+      duration: 1000,
+      once: false,
+      offset: 100,
     });
   }, []);
 
   return (
-    <div className="font-poppins pt-40 max-xs:pt-12"  id="Skills">
+    <div className="font-poppins pt-40 max-xs:pt-12" id="Skills">
       <h1 className="sub-title mb-5 max-xs:text-[40px]">
 
         <span className="bg-gradient-to-b
                      from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.3)] 
                     text-transparent bg-clip-text"> My </span>
-  Skills
+        Skills
       </h1>
       <section className="section ">
         <div className="container1" id="skills">
@@ -123,6 +123,16 @@ export default function Skills() {
                 <span>React</span>
               </div>
               <div className="progress-line react">
+                <span className="no"></span>
+              </div>
+            </div>
+
+            <div className="bar" data-aos="fade-up">
+              <img className="w-[20px] h-[20px]" src={next} alt="react" />
+              <div className="indfo">
+                <span>Next</span>
+              </div>
+              <div className="progress-line next">
                 <span className="no"></span>
               </div>
             </div>

@@ -7,9 +7,9 @@ export default function Connect() {
     const phoneNumber = "963934865509"; 
     const message = encodeURIComponent("مرحبًا، أود التواصل معك."); 
     return (
-        <section className="bg-black relative pb-5 max-xs:mt-10 mt-10 xs:h-[100vh]" id="Contact">
+        <section className="bg-black relative pb-5 xs:h-[100vh]" id="Contact">
 
-            <div class="bg-gradient-to-b from-[#ffffff7a] opacity-35 to-[#000] h-20 max-xs:h-10">
+            <div class="bg-gradient-to-b  max-xs:pt-10 pt-10 from-[#ffffff7a] opacity-35 to-[#000] h-20 max-xs:h-10">
             </div>
 
 

@@ -176,7 +176,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={1000}
                 onClick={handleClick}
 
             >
@@ -241,6 +241,9 @@ export default function Navbar() {
                             <ul class="flex justify-center mt-5 space-x-7 w-full">
                                 <li>
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.facebook.com/hussensh.shabn?mibextid=ZbWKwL"
                                         class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
                                     >
                                         <svg
@@ -259,6 +262,10 @@ export default function Navbar() {
                                 </li>
                                 <li>
                                     <a
+
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.instagram.com/hussenshshabn/"
                                         class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
                                     >
                                         <svg
@@ -278,6 +285,10 @@ export default function Navbar() {
 
                                 <li>
                                     <a
+
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://github.com/Hussen-shban"
                                         class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
                                     >
                                         <svg

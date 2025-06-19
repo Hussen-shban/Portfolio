@@ -12,6 +12,10 @@ import js from "./js.svg"
 import tailwind from "./tailwind.svg"
 import sass from "./sass.svg"
 import reactt from "./reactt.svg"
+import fresh from "./fresh.png"
 import css from "./css.svg"
 import c from "./c++.svg"
-export { react, listt,husse ,safita,arrow ,front ,social ,hoobank ,ecommerce,html ,js ,tailwind ,sass ,reactt ,css ,c };
+import weather from "./weather.png"
+import Ecommerce from "./SH-Ecommerce.png"
+import next from "./next.svg"
+export { react,weather,Ecommerce,next, listt,husse ,fresh ,safita,arrow ,front ,social ,hoobank ,ecommerce,html ,js ,tailwind ,sass ,reactt ,css ,c };
