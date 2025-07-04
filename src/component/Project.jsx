@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef } from "react";
-import { Ecommerce, ecommerce, fresh, hoobank, social, weather } from "../assets";
+import { Ecommerce, ecommerce, fresh, hoobank, NETFLIX, social, weather } from "../assets";
 import 'aos/dist/aos.css';
 import Aos from "aos";
 import Pro from "./pro";
@@ -18,7 +18,7 @@ export default function Project() {
     }, []);
 
     return (
-        <section className="max-xs:pb-2 pb-7 pt-40 max-xs:pt-20" id="Project">
+        <section className="max-xs:pb-20 pb-32 pt-40 max-xs:pt-20" id="Project">
             <h1 className="sub-title   mb-20 max-xs:text-[32px] max-xs:mb-8">
 
                 <span className="bg-gradient-to-b
@@ -32,6 +32,12 @@ export default function Project() {
             <div className="w-[100%] m-auto flex items-center justify-around max-ss:justify-center max-ss:w-[85%] flex-wrap gap-10 max-xs:w-[95%] max-xs:gap-2">
 
 
+                <Pro
+                    img={NETFLIX}
+                    name={"NETFLIX"}
+                    code={"https://github.com/Hussen-shban/NETFLIX"}
+                    web={"https://shflix.netlify.app/"}
+                />
                 <Pro
                     img={Ecommerce}
                     name={"SH-Ecommerce"}
@@ -65,7 +71,12 @@ export default function Project() {
                     code={"https://github.com/Hussen-shban/SH-social"}
                     web={"https://hussen-shban.github.io/SH-social/"}
                 />
-
+                <Pro
+                    img={social}
+                    name={"SH-social"}
+                    code={"https://github.com/Hussen-shban/SH-social"}
+                    web={"https://hussen-shban.github.io/SH-social/"}
+                />
 
 
             </div>

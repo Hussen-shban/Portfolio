@@ -7,8 +7,8 @@ export default function Pro(props) {
                     data-aos="fade-up"
                     className=" w-[510px] h-[450px] flex flex-col justify-center items-center max-xs:w-[100vw] max-xs:h-[300px]"
                 >
-                    <div className="bg-dimWhite  w-[500px] h-[400px] rounded-[50px] shadow-[rgba(0,0,0,0.3)] shadow-2xl flex items-center justify-center max-xs:p-1 max-xs:w-[100%] max-xs:h-[200px]">
-                        <div className="w-[450px] max-xs:max-h-[150px] rounded-xl overflow-hidden shadow-[rgba(0,0,0,0.2)] shadow-2xl max-xs:w-[95%]">
+                    <div className="bg-dimWhite  w-[500px] h-[400px] rounded-[50px] shadow-[rgba(0,0,0,0.3)] shadow-2xl flex items-center justify-center max-xs:p-1 max-xs:w-[100%] max-xs:h-[250px]">
+                        <div className="w-[450px]  max-xs:w-[95%] max-xs:max-h-[200px] rounded-xl overflow-hidden shadow-[rgba(0,0,0,0.2)] shadow-2xl ">
                             <img src={props.img} alt="" />
                         </div>
                     </div>

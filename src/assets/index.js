@@ -18,4 +18,5 @@ import c from "./c++.svg"
 import weather from "./weather.png"
 import Ecommerce from "./SH-Ecommerce.png"
 import next from "./next.svg"
-export { react,weather,Ecommerce,next, listt,husse ,fresh ,safita,arrow ,front ,social ,hoobank ,ecommerce,html ,js ,tailwind ,sass ,reactt ,css ,c };
+import NETFLIX from "./NETFLIX.png"
+export { react,weather,Ecommerce,next ,NETFLIX, listt,husse ,fresh ,safita,arrow ,front ,social ,hoobank ,ecommerce,html ,js ,tailwind ,sass ,reactt ,css ,c };
